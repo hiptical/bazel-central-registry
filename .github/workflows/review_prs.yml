@@ -1,14 +1,12 @@
 name: Review BCR Pull Requests
 on:
   workflow_dispatch:
-
 permissions:
   contents: write
   pull-requests: write
   issues: write
   checks: read
   actions: read
-
 jobs:
   review_prs:
     runs-on: ubuntu-latest
@@ -16,5 +14,5 @@ jobs:
       - name: Run BCR PR Reviewer
         uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@957b0ac44549a70ccb951361b804d07d955aeb79 # master (same pin as upstream BCR)
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.BCR_PR_REVIEW_HELPER_TOKEN }}
           action-type: review_prs
