@@ -1,6 +1,11 @@
 {
-  "maintainers": [
-    "hiptical"
-  ],
-  "yanked_versions": {}
+    "maintainers": [
+        {
+            "email": "178387179+hiptical@users.noreply.github.com",
+            "github": "hiptical",
+            "github_user_id": 178387179,
+            "name": "hiptical"
+        }
+    ],
+    "yanked_versions": {}
 }
